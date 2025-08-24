@@ -1,6 +1,5 @@
 import React from 'react'
-import { AiOutlineHome } from 'react-icons/ai'
-import { FaHome } from 'react-icons/fa'
+import { FaCheck, FaHome } from 'react-icons/fa'
 import { PiGreaterThan } from 'react-icons/pi'
 
 const services = [
@@ -54,7 +53,10 @@ const ServicesPage = () => {
               Featured Services
             </h1>
             <p className='text-gray-600 max-w-2xl mx-auto'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa consequatur ex perspiciatis, molestiae laboriosam delectus.
+              Discover a wide range of services designed to help you feel better,
+              look better, and live healthier. From personalized consultations
+              to professional treatments, we focus on delivering solutions that
+              match your unique needs and goals.
             </p>
           </div>
 
@@ -77,41 +79,42 @@ const ServicesPage = () => {
 
         </div>
       </div>
-   
+
       <div className="mt-16 bg-white py-16">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-         
+
           <div className="flex justify-center">
             <img
-              src="/your-image.jpg"   // 🔹 replace with your image
+              src="/assets/image.jpg"
               alt="About Services"
               className="rounded-2xl shadow-lg w-full max-w-md object-cover"
             />
           </div>
 
-          {/* RIGHT SIDE - TEXT */}
+
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Why Choose Our Services?
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Vitae repellat maiores velit illum, fugiat excepturi alias
-              doloremque odit dolores unde repudiandae dolorem.
+              We are committed to providing exceptional care and personalized
+              solutions that improve your health, fitness, and overall well-being.
+              Our experienced team combines modern techniques with a compassionate
+              approach, ensuring every client receives the attention they deserve.
             </p>
 
             <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <span className="text-indigo-600 font-bold">✓</span>
+              <li className="flex items-center gap-3">
+              <FaCheck className="text-gray-600 font-bold"/>
                 <span>High-quality and reliable service tailored to your needs</span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-indigo-600 font-bold">✓</span>
+              <li className="flex items-center gap-3">
+              <FaCheck className="text-gray-600 font-bold"/>
                 <span>Affordable pricing with excellent value</span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-indigo-600 font-bold">✓</span>
+              <li className="flex items-center gap-3">
+                <FaCheck className="text-gray-600 font-bold"/>
                 <span>Friendly support team always ready to help</span>
               </li>
             </ul>
