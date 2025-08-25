@@ -1,7 +1,9 @@
+
 import React from 'react'
 
 const HeroSection = () => {
   return (
+    
     <section className='min-h-screen flex justify-around items-center flex-wrap bg-[url(/assets/hero-bw.jpg)] bg-cover bg-center  md:pt-5 pt-[150px] px-10'>
         
         <div className='md:w-[550px]'>
@@ -11,7 +13,9 @@ const HeroSection = () => {
 
 
         <div></div>
+
     </section>  
+
   )
 }
 
