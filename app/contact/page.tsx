@@ -11,7 +11,7 @@ const ContactPage = () => {
         <p className='text-gray-600 text-xl '>We would love to hear from you.</p>
       </div>
 
-      <div className='"max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 mt-10'>
+      <div className='"max-w-6xl mx-auto  px-6 grid md:grid-cols-2 gap-12 mt-10'>
         <div>
           <h1 className='text-2xl font-bold text-gray-900 mb-4'>Get in touch</h1>
 
@@ -84,12 +84,12 @@ const ContactPage = () => {
         </div>
       </div>
 
-    
+
 
       <div className="flex items-center justify-center">
         <div className="w-full max-w-4xl flex flex-col rounded-xl shadow-md overflow-hidden mt-10">
 
-          
+
           <div className="w-full h-[400px]">
             <iframe
               title="Google Map"
