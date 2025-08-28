@@ -1,4 +1,4 @@
-import { Camera, Clock, Video } from 'lucide-react'
+import { Clock, Video } from 'lucide-react'
 import React from 'react'
 
 const services = [
@@ -206,10 +206,11 @@ const AppointmentPage = () => {
             </div>
             <p className="text-xl mb-2">{service.description}</p>
             <p className="text-sm text-muted-foreground italic">
-              Please note that all consultations are <span className="font-medium">non-refundable</span>,
-              <span className="font-medium"> non-transferable</span>, and do not count toward the down payment
-              for your dress. Be sure to review the terms of service before proceeding with payment.
-              Web conferencing details will be provided upon confirmation.
+              Please note that all consultations are<span className="font-medium">Non-refundable</span>,
+              <span className="font-medium"> non-transferable</span>, and do not count toward future treatment payments.
+              Please review our consultation policy carefully before proceeding with payment.
+              Web conferencing details will be provided upon confirmation (if applicable).
+
             </p>
           </div>
         ))}

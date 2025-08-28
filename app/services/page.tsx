@@ -25,10 +25,10 @@ const ServicesPage = () => {
   return (
     <div className='pt-[150px]'>
 
-      <div className='w-full shadow bg-white h-full flex flex-col items-center justify-center py-10'>
+      <div className='w-full  bg-white h-full flex flex-col items-center justify-center py-10'>
 
 
-        <h1 className='text-5xl text-center font-bold text-gray-900 mb-4'>
+        <h1 className='text-6xl text-center font-bold text-gray-900 mb-4'>
           Services
         </h1>
 

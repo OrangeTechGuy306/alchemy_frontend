@@ -4,14 +4,14 @@ import { FaEnvelope, FaFacebookF, FaInstagram, FaMapMarkerAlt, FaPhone, FaTwitte
 const ContactPage = () => {
   return (
     <div className='pt-[150px] '>
-      <div className='flex flex-col w-full h-full shadow items-center justify-center py-10'>
+      <div className='flex flex-col w-full h-full  items-center justify-center py-10'>
 
-        <h1 className='text-5xl text-gray-900 font-bold mb-4'>Contact Us</h1>
+        <h1 className='text-6xl text-gray-900 font-bold mb-4'>Contact Us</h1>
 
         <p className='text-gray-600 text-xl '>We would love to hear from you.</p>
       </div>
 
-      <div className='"max-w-6xl mx-auto  px-6 grid md:grid-cols-2 gap-12 mt-10'>
+      <div className='max-w-9xl mx-auto  p-10 grid md:grid-cols-2 gap-12 mt-10'>
         <div>
           <h1 className='text-2xl font-bold text-gray-900 mb-4'>Get in touch</h1>
 
